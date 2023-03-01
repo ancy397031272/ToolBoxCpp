@@ -8,7 +8,7 @@ target_include_directories(toolbox PUBLIC
         $<INSTALL_INTERFACE:include>)
 
 
-install(DIRECTORY ../../include/toolbox/
+install(DIRECTORY ../../include/
         DESTINATION "${CMAKE_INSTALL_PREFIX}/toolbox/include"
         USE_SOURCE_PERMISSIONS
         )
